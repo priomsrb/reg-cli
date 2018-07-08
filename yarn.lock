@@ -5898,13 +5898,13 @@ reg-publish-s3-plugin@0.7.4:
     mkdirp "^0.5.1"
     uuid "^3.1.0"
 
-reg-suit-core@^0.7.2:
-  version "0.7.2"
-  resolved "https://registry.yarnpkg.com/reg-suit-core/-/reg-suit-core-0.7.2.tgz#82c804d52c6dd55727a511f12cc280641c4ebeea"
+reg-suit-core@^0.7.6:
+  version "0.7.6"
+  resolved "https://registry.yarnpkg.com/reg-suit-core/-/reg-suit-core-0.7.6.tgz#db7cfe5b03700e335ac62e4255a7a0b5e6db9e55"
   dependencies:
     cpx "^1.5.0"
     reg-cli "^0.11.0"
-    reg-suit-util "^0.7.1"
+    reg-suit-util "^0.7.6"
     rimraf "^2.6.1"
 
 reg-suit-util@^0.7.1:
@@ -5915,15 +5915,27 @@ reg-suit-util@^0.7.1:
     cli-progress "^1.4.1"
     cli-spinner "^0.2.6"
 
-reg-suit@0.7.2:
-  version "0.7.2"
-  resolved "https://registry.yarnpkg.com/reg-suit/-/reg-suit-0.7.2.tgz#5499829622f3ec3bb2923a764018f3b7668970f8"
+reg-suit-util@^0.7.6:
+  version "0.7.6"
+  resolved "https://registry.yarnpkg.com/reg-suit-util/-/reg-suit-util-0.7.6.tgz#38f4bbb4e111de63f4a05bf7314dd8cc052db491"
+  dependencies:
+    chalk "^2.0.1"
+    cli-progress "^1.4.1"
+    cli-spinner "^0.2.6"
+    glob "^7.1.2"
+    lodash "^4.17.4"
+    mime-types "^2.1.15"
+    mkdirp "^0.5.1"
+
+reg-suit@0.7.6:
+  version "0.7.6"
+  resolved "https://registry.yarnpkg.com/reg-suit/-/reg-suit-0.7.6.tgz#c3d7355e744b956f2224f59f53c872cc08267b8e"
   dependencies:
     cp-file "^4.2.0"
     ignore "^3.3.7"
     inquirer "^3.1.1"
-    reg-suit-core "^0.7.2"
-    reg-suit-util "^0.7.1"
+    reg-suit-core "^0.7.6"
+    reg-suit-util "^0.7.6"
     yargs "^8.0.2"
 
 regenerate@^1.2.1:
