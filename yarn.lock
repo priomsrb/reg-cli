@@ -5877,12 +5877,12 @@ reg-keygen-git-hash-plugin@0.7.1:
   dependencies:
     reg-suit-util "^0.7.1"
 
-reg-notify-github-plugin@0.7.2:
-  version "0.7.2"
-  resolved "https://registry.yarnpkg.com/reg-notify-github-plugin/-/reg-notify-github-plugin-0.7.2.tgz#850f568b988cc954713d3575e2c62773077e5f2e"
+reg-notify-github-plugin@0.7.6:
+  version "0.7.6"
+  resolved "https://registry.yarnpkg.com/reg-notify-github-plugin/-/reg-notify-github-plugin-0.7.6.tgz#518dc740d20b8ac03272c6e37939d6937c2721b3"
   dependencies:
     open "^0.0.5"
-    reg-suit-util "^0.7.1"
+    reg-suit-util "^0.7.6"
     request "^2.81.0"
     request-promise "^4.2.1"
     tiny-commit-walker "^1.1.2"
@@ -5914,6 +5914,18 @@ reg-suit-util@^0.7.1:
     chalk "^2.0.1"
     cli-progress "^1.4.1"
     cli-spinner "^0.2.6"
+
+reg-suit-util@^0.7.6:
+  version "0.7.6"
+  resolved "https://registry.yarnpkg.com/reg-suit-util/-/reg-suit-util-0.7.6.tgz#38f4bbb4e111de63f4a05bf7314dd8cc052db491"
+  dependencies:
+    chalk "^2.0.1"
+    cli-progress "^1.4.1"
+    cli-spinner "^0.2.6"
+    glob "^7.1.2"
+    lodash "^4.17.4"
+    mime-types "^2.1.15"
+    mkdirp "^0.5.1"
 
 reg-suit@0.7.2:
   version "0.7.2"
