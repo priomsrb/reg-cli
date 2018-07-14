@@ -5871,11 +5871,11 @@ reg-cli@^0.11.0:
     mustache "^2.3.0"
     x-img-diff-js "0.3.5"
 
-reg-keygen-git-hash-plugin@0.7.1:
-  version "0.7.1"
-  resolved "https://registry.yarnpkg.com/reg-keygen-git-hash-plugin/-/reg-keygen-git-hash-plugin-0.7.1.tgz#fe37e3d1ce3f21c886dda6b0bdce1dbfccf86368"
+reg-keygen-git-hash-plugin@0.7.6:
+  version "0.7.6"
+  resolved "https://registry.yarnpkg.com/reg-keygen-git-hash-plugin/-/reg-keygen-git-hash-plugin-0.7.6.tgz#adb3a068c19a6563a410c134b7d13d7d128fb139"
   dependencies:
-    reg-suit-util "^0.7.1"
+    reg-suit-util "^0.7.6"
 
 reg-notify-github-plugin@0.7.2:
   version "0.7.2"
@@ -5914,6 +5914,18 @@ reg-suit-util@^0.7.1:
     chalk "^2.0.1"
     cli-progress "^1.4.1"
     cli-spinner "^0.2.6"
+
+reg-suit-util@^0.7.6:
+  version "0.7.6"
+  resolved "https://registry.yarnpkg.com/reg-suit-util/-/reg-suit-util-0.7.6.tgz#38f4bbb4e111de63f4a05bf7314dd8cc052db491"
+  dependencies:
+    chalk "^2.0.1"
+    cli-progress "^1.4.1"
+    cli-spinner "^0.2.6"
+    glob "^7.1.2"
+    lodash "^4.17.4"
+    mime-types "^2.1.15"
+    mkdirp "^0.5.1"
 
 reg-suit@0.7.2:
   version "0.7.2"
